@@ -1,3 +1,4 @@
+import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Programs from "./components/Programs/programs";
@@ -11,6 +12,7 @@ const App = () => {
       <div className="container">
         <Title subtitle= "Our PROGRAM" title= "What We Offer"/>
         <Programs />
+        <About/>
       </div>
     </div>
   );
